@@ -26,3 +26,5 @@ ggplot(plot_data, aes(x = cyl, y = avg_hp, fill = cyl)) +
 
 # 4. (Optional) Show the underlying data
 print(plot_data)
+
+renv::snapshot()
